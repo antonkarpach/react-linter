@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import Test from './components/Test';
+import React, { useEffect, useState } from "react";
+import logo from "./logo.svg";
+import "./App.scss";
+import Test from "./components/Test";
 
 function App() {
   const [state, setState] = useState<number | null>();
